@@ -1,0 +1,180 @@
+// ═══════════════════════════════════════════
+//                         Config Preset V1.0 by Purp1e                       
+//                              CFG预设（Purp1e制作）                           
+//                                   #2019/4/30#                                      
+//                     https://space.bilibili.com/73115492                      
+// ═══════════════════════════════════════════
+
+
+//网络参数可选 一直稳定 ping<45ms loss=0 var=0 choke=0 时可选↓指令 复制到auto.cfg中
+cl_interp 0;cl_interp_ratio 1;
+
+//该指令的默认值
+cl_interp 0.031;cl_interp_ratio 2;
+
+
+//设置分辨率 0=全屏 1=窗口
+mat_setvideomode 1920 1080 0 
+
+//───────────────────────    基本跳投(双键)    ─────────────────────────────
+bind Capslock +jumpthrow;			// "Capslock"键跳投 可修改
+alias +jumpthrow "+jump;-attack;-attack2";
+alias -jumpthrow -jump;
+
+
+//──────────────      跳投 | 投掷物准星 | 个性左右手 | 快速切换道具     ─────────────────
+          说明：这几个功能使用的按键有重合之处，为方便使用，特地分成几种不同的情况
+                        找到你对应的情况，把代码复制，覆盖auto.cfg对应的部分
+//──────────────────────────────────────────────────────────────────
+
+
+//①：使用【防误触跳投+自动投掷物准星+个性左右手+快速切换道具】
+//───────────────────     快速切换道具(未开启)    ────────────────────────
+//bind z "use weapon_knife;use weapon_smokegrenade;xjumpthrow";			//烟
+//bind x "use weapon_knife;use weapon_flashbang;xjumpthrow";			//闪
+//bind c "use weapon_knife;use weapon_hegrenade;xjumpthrow";			//雷
+//bind v "use weapon_knife;use weapon_molotov;use weapon_incgrenade;xjumpthrow";	//火
+//──────────    防误触跳投+自动投掷物准星+个性化左右手(声音提示)    ────────────
+bind Capslock +jumpthrow;		// "Capslock"键跳投 可修改
+alias off "bind mouse1 +attack"	// 个人准星参数存放在    "crosshair.cfg" 中 
+alias +jumpthrow;			// 投掷物准星参数存放在 "crosshair_throw.cfg" 中
+alias -jumpthrow -jump;
+alias jpthrow "+jump;-atk"
+bind mouse1 +atk;
+alias +atk "+attack;+ack"
+alias -atk  "-attack;-ack"
+alias +ack;alias -ack;
+alias ack_1 "exec crosshair_throw;alias +jumpthrow jpthrow;alias -ack ack_2"
+alias ack_2 "exec crosshair;alias +jumpthrow;alias -ack;alias +ack"
+alias xjumpthrow "alias +ack ack_1";
+alias xjumpthrow_off "alias +ack;"
+//──────────────────       个性化左右手(声音提示)       ─────────────────────
+bind v xchange			// "v"键 切换档位 [可修改]
+alias left "cl_righthand 0"		// s1=数字1|主武器    s2=数字2|副武器    s3=数字3|刀    s4=数字4|道具    s5=数字5|炸弹
+alias right "cl_righthand 1"		// left=左手 right=右手
+alias xchange xchange_on		// 开启档<1左手2345右手>   关闭档<12345右手>   [可修改]
+alias xchange_on "alias xchange xchange_off;alias s1 left    ;alias s2 right  ;alias s3 right  ;alias s4 right  ;alias s5 right  ;playvol ui/beepclear 0.8"//←开启档设置
+alias xchange_off "alias xchange xchange_on;alias s1 right  ;alias s2 right  ;alias s3 right  ;alias s4 right  ;alias s5 right  ;playvol ui/weapon_cant_buy 0.8"//←关闭档设置
+xchange_off;	// 默认关闭档 [可修改]
+bind 1 "slot1;s1;xjumpthrow_off"
+bind 2 "slot2;s2;xjumpthrow_off"
+bind 3 "slot3;s3;xjumpthrow_off"
+bind 4 "slot4;s4;xjumpthrow"
+bind 5 "slot5;s5;xjumpthrow_off"
+//═════════════════════════════════════════════════════════════
+
+
+
+//②：只使用【防误触跳投+自动投掷物准星】
+//──────────────────    防误触跳投+自动投掷物准星    ────────────────────
+bind Capslock +jumpthrow;		// "Capslock"键跳投 [可修改]
+alias off "bind mouse1 +attack"	// 个人准星参数存放在    "crosshair.cfg" 中 
+alias +jumpthrow;			// 投掷物准星参数存放在 "crosshair_throw.cfg" 中
+alias -jumpthrow -jump;
+alias jpthrow "+jump;-atk"
+bind mouse1 +atk;
+alias +atk "+attack;+ack"
+alias -atk  "-attack;-ack"
+alias +ack;alias -ack;
+alias ack_1 "exec crosshair_throw;alias +jumpthrow jpthrow;alias -ack ack_2"
+alias ack_2 "exec crosshair;alias +jumpthrow;alias -ack;alias +ack"
+alias xjumpthrow "alias +ack ack_1";
+alias xjumpthrow_off "alias +ack;"
+bind 1 "slot1;xjumpthrow_off"
+bind 2 "slot2;xjumpthrow_off"
+bind 3 "slot3;xjumpthrow_off"
+bind 4 "slot4;xjumpthrow"
+bind 5 "slot5;xjumpthrow_off"
+//═════════════════════════════════════════════════════════════
+
+
+
+//③：只使用【个性化左手】
+//───────────────────   个性化左右手(声音提示)   ────────────────────────
+bind v xchange			// "v"键 切换档位 [可修改]
+alias left "cl_righthand 0"		// s1=数字1|主武器    s2=数字2|副武器    s3=数字3|刀    s4=数字4|道具    s5=数字5|炸弹
+alias right "cl_righthand 1"		// left=左手 right=右手
+alias xchange xchange_on		// 开启档<1左手2345右手>   关闭档<12345右手>   [可修改]
+alias xchange_on "alias xchange xchange_off;alias s1 left    ;alias s2 right  ;alias s3 right  ;alias s4 right  ;alias s5 right  ;playvol ui/beepclear 0.8"//←开启档设置
+alias xchange_off "alias xchange xchange_on;alias s1 right  ;alias s2 right  ;alias s3 right  ;alias s4 right  ;alias s5 right  ;playvol ui/weapon_cant_buy 0.8"//←关闭档设置
+xchange_off;	// 默认关闭档 [可修改]
+bind 1 "slot1;s1"
+bind 2 "slot2;s2"
+bind 3 "slot3;s3"
+bind 4 "slot4;s4"	  
+bind 5 "slot5;s5"
+//═════════════════════════════════════════════════════════════
+
+
+
+//④：只使用【快速切换道具】
+//───────────────────     快速切换道具(未开启)    ────────────────────────
+//bind z "use weapon_knife;use weapon_smokegrenade";			//烟
+//bind x "use weapon_knife;use weapon_flashbang";				//闪
+//bind c "use weapon_knife;use weapon_hegrenade";			//雷
+//bind v "use weapon_knife;use weapon_molotov;use weapon_incgrenade";	//火
+//═════════════════════════════════════════════════════════════
+
+
+
+//⑤：使用【防误触跳投+自动投掷物准星+个性左右手】
+//──────────    防误触跳投+自动投掷物准星+个性化左右手(声音提示)    ────────────
+bind Capslock +jumpthrow;		// "Capslock"键跳投 可修改
+alias off "bind mouse1 +attack"	// 个人准星参数存放在    "crosshair.cfg" 中 
+alias +jumpthrow;			// 投掷物准星参数存放在 "crosshair_throw.cfg" 中
+alias -jumpthrow -jump;
+alias jpthrow "+jump;-atk"
+bind mouse1 +atk;
+alias +atk "+attack;+ack"
+alias -atk  "-attack;-ack"
+alias +ack;alias -ack;
+alias ack_1 "exec crosshair_throw;alias +jumpthrow jpthrow;alias -ack ack_2"
+alias ack_2 "exec crosshair;alias +jumpthrow;alias -ack;alias +ack"
+alias xjumpthrow "alias +ack ack_1";
+alias xjumpthrow_off "alias +ack;"
+//──────────────────       个性化左右手(声音提示)       ─────────────────────
+bind v xchange			// "v"键 切换档位 [可修改]
+alias left "cl_righthand 0"		// s1=数字1|主武器    s2=数字2|副武器    s3=数字3|刀    s4=数字4|道具    s5=数字5|炸弹
+alias right "cl_righthand 1"		// left=左手 right=右手
+alias xchange xchange_on		// 开启档<1左手2345右手>   关闭档<12345右手>   [可修改]
+alias xchange_on "alias xchange xchange_off;alias s1 left    ;alias s2 right  ;alias s3 right  ;alias s4 right  ;alias s5 right  ;playvol ui/beepclear 0.8"//←开启档设置
+alias xchange_off "alias xchange xchange_on;alias s1 right  ;alias s2 right  ;alias s3 right  ;alias s4 right  ;alias s5 right  ;playvol ui/weapon_cant_buy 0.8"//←关闭档设置
+xchange_off;	// 默认关闭档 [可修改]
+bind 1 "slot1;s1;xjumpthrow_off"
+bind 2 "slot2;s2;xjumpthrow_off"
+bind 3 "slot3;s3;xjumpthrow_off"
+bind 4 "slot4;s4;xjumpthrow"
+bind 5 "slot5;s5;xjumpthrow_off"
+//═════════════════════════════════════════════════════════════
+
+
+
+//⑥：使用【防误触跳投+自动投掷物准星+快速切换道具】
+//───────────────────     快速切换道具(未开启)    ────────────────────────
+//bind z "use weapon_knife;use weapon_smokegrenade;xjumpthrow";			//烟
+//bind x "use weapon_knife;use weapon_flashbang;xjumpthrow";			//闪
+//bind c "use weapon_knife;use weapon_hegrenade;xjumpthrow";			//雷
+//bind v "use weapon_knife;use weapon_molotov;use weapon_incgrenade;xjumpthrow";	//火
+//──────────────────    防误触跳投+自动投掷物准星    ─────────────────────
+bind Capslock +jumpthrow;		// "Capslock"键跳投 可修改
+alias off "bind mouse1 +attack"
+alias +jumpthrow;
+alias -jumpthrow -jump;
+alias jpthrow "+jump;-atk"
+bind mouse1 +atk;
+alias +atk "+attack;+ack"
+alias -atk  "-attack;-ack"
+alias +ack;alias -ack;
+alias ack_1 "exec crosshair_throw;alias +jumpthrow jpthrow;alias -ack ack_2"
+alias ack_2 "exec crosshair;alias +jumpthrow;alias -ack;alias +ack"
+alias xjumpthrow "alias +ack ack_1";
+alias xjumpthrow_off "alias +ack;"
+bind 1 "slot1;xjumpthrow_off"
+bind 2 "slot2;xjumpthrow_off"
+bind 3 "slot3;xjumpthrow_off"
+bind 4 "slot4;xjumpthrow"
+bind 5 "slot5;xjumpthrow_off"
+//═════════════════════════════════════════════════════════════
+
+
+

@@ -1,0 +1,47 @@
+// ═══════════════════════════════════════════
+//                         Config Preset V1.0 by Purp1e                       
+//                              CFG预设（Purp1e制作）                           
+//                                   #2019/3/21#                                      
+//                     https://space.bilibili.com/73115492                      
+// ═══════════════════════════════════════════
+@使用说明: 
+1. 不要急着使用
+   备份设置文件！备份设置文件！备份设置文件！
+   个人设置文件夹...\Steam\userdata\(9位ID)\730\local\cfg\
+   游戏设置文件夹...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\
+
+2. ID不知道怎么办？
+    登录 https://steamid.io/
+    复制个人资料简介，如 https://steamcommunity.com/id/1234567890/
+    第二行 SteamID3 [U:1:146859713]
+                                           ↑
+3. 修改auto.cfg中的参数
+    可以把游戏设置成窗口模式对应着改
+    准星、持枪可以去创意工坊 auto中有说明
+    [ cfg预设主体为auto.cfg 相当于常用的autoexec.cfg 名字任取 (每次都少打4个字母 +1s) ]
+
+4. 根据auto.cfg中的说明 设置启动项
+
+5. //是"注释" 在它出现的那一行 之后的内容都不会被读取
+
+这是指令;		//这是注释
+
+   如果不想用某条指令 就在指令前加上注释:
+
+//这是指令;	//这是注释
+
+   或者直接删除
+
+5. 转移设置脚本目前有bug 调试完成会第一时间通知并更新
+
+@常见问题:
+
+1.  为什么我自己的cfg无法自动加载？
+    需要在这个cfg的结尾加上host_writeconfig
+    启动项 +exec xxx.cfg	是不是忘了+ 或者忘了用空格隔开？
+                        (xxx是自动加载cfg的名字)
+
+2.  为什么控制台经常弹出unknown command
+    记事本编辑文件后编码格式会变为UTF8 Bom csgo无法识别bom
+    对功能没影响 可以用editplus 或notepad++改变编码为UTF8
+
