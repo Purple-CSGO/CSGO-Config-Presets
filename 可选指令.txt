@@ -47,7 +47,7 @@ alias +ack;alias -ack;
 alias ack_1 "exec crosshair_throw;alias +jumpthrow jpthrow;alias -ack ack_2"
 alias ack_2 "exec crosshair;alias +jumpthrow;alias -ack;alias +ack"
 alias xjumpthrow "alias +ack ack_1";
-alias xjumpthrow_off "alias +ack;"
+alias xjumpthrow_off "alias +ack;exec crosshair"
 //──────────────────       个性化左右手(声音提示)       ─────────────────────
 bind v xchange			// "v"键 切换档位 [可修改]
 alias left "cl_righthand 0"		// s1=数字1|主武器    s2=数字2|副武器    s3=数字3|刀    s4=数字4|道具    s5=数字5|炸弹
@@ -79,7 +79,7 @@ alias +ack;alias -ack;
 alias ack_1 "exec crosshair_throw;alias +jumpthrow jpthrow;alias -ack ack_2"
 alias ack_2 "exec crosshair;alias +jumpthrow;alias -ack;alias +ack"
 alias xjumpthrow "alias +ack ack_1";
-alias xjumpthrow_off "alias +ack;"
+alias xjumpthrow_off "alias +ack;exec crosshair"
 bind 1 "slot1;xjumpthrow_off"
 bind 2 "slot2;xjumpthrow_off"
 bind 3 "slot3;xjumpthrow_off"
@@ -131,7 +131,7 @@ alias +ack;alias -ack;
 alias ack_1 "exec crosshair_throw;alias +jumpthrow jpthrow;alias -ack ack_2"
 alias ack_2 "exec crosshair;alias +jumpthrow;alias -ack;alias +ack"
 alias xjumpthrow "alias +ack ack_1";
-alias xjumpthrow_off "alias +ack;"
+alias xjumpthrow_off "alias +ack;exec crosshair"
 //──────────────────       个性化左右手(声音提示)       ─────────────────────
 bind v xchange			// "v"键 切换档位 [可修改]
 alias left "cl_righthand 0"		// s1=数字1|主武器    s2=数字2|副武器    s3=数字3|刀    s4=数字4|道具    s5=数字5|炸弹
@@ -168,7 +168,7 @@ alias +ack;alias -ack;
 alias ack_1 "exec crosshair_throw;alias +jumpthrow jpthrow;alias -ack ack_2"
 alias ack_2 "exec crosshair;alias +jumpthrow;alias -ack;alias +ack"
 alias xjumpthrow "alias +ack ack_1";
-alias xjumpthrow_off "alias +ack;"
+alias xjumpthrow_off "alias +ack;exec crosshair"
 bind 1 "slot1;xjumpthrow_off"
 bind 2 "slot2;xjumpthrow_off"
 bind 3 "slot3;xjumpthrow_off"
