@@ -1,4 +1,4 @@
-# CSGO-Cfg-Preset-By-Purp1e
+# [CS:GO] Cfg-Preset-By-Purp1e
 >>这是我个人写的CSGO config的预设，包含各种应用场景，注释详细
 
 >>涉及很多日常使用的指令和功能（服务器指令pass），实时修改更新
