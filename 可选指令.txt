@@ -178,3 +178,5 @@ bind 3 "slot3;xjumpthrow_off"
 bind 4 "slot4;xjumpthrow"
 bind 5 "slot5;xjumpthrow_off"
 //═════════════════════════════════════════════════════════════
+
+@2019/9/20 Cora1t 生快~
