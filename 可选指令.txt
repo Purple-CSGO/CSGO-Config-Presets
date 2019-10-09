@@ -1,9 +1,40 @@
 // ═══════════════════════════════════════════
-//                         Config Preset V1.2 by Purp1e                       
+//                         Config Preset V1.2c by Purp1e                       
 //                              CFG预设（Purp1e制作）                           
-//                                   #2019/8/6#                                      
+//                                   #2019/10/9#                                      
 //                     https://space.bilibili.com/73115492                      
 // ═══════════════════════════════════════════
+
+//给绑定按键的指令""最后加上;swaphud或者;swap即可让其他按键也切换UI或准星的颜色
+//WASD更改UI颜色
+bind "w" "+forward;swaphud";
+bind "a" "+moveleft;swaphud";
+bind "s" "+back;swaphud";
+bind "d" "+moveright;swaphud";
+alias	"swaphud"	"hud0";
+alias	"hud0"	"cl_hud_color 0;alias swaphud hud1";
+alias	"hud1"	"cl_hud_color 1;alias swaphud hud2";
+alias	"hud2"	"cl_hud_color 2;alias swaphud hud3";
+alias	"hud3"	"cl_hud_color 3;alias swaphud hud4";
+alias	"hud4"	"cl_hud_color 4;alias swaphud hud5";
+alias	"hud5"	"cl_hud_color 5;alias swaphud hud6";
+alias	"hud6"	"cl_hud_color 6;alias swaphud hud7";
+alias	"hud7"	"cl_hud_color 7;alias swaphud hud8";
+alias	"hud8"	"cl_hud_color 8;alias swaphud hud9";
+alias	"hud9"	"cl_hud_color 9;alias swaphud hud0";
+//鼠标左键更改准星颜色 红绿黄蓝青粉紫白黑
+bind	"mouse1"	"+attack;swap";
+alias	"swap"	"red";
+alias	"red"		"cl_crosshaircolor 0;alias swap green";
+alias	"green"	"cl_crosshaircolor 1;alias swap yellow";
+alias	"yellow" "cl_crosshaircolor 2;alias swap blue";
+alias	"blue"		"cl_crosshaircolor 3;alias swap cyan";
+alias	"cyan"	"cl_crosshaircolor 4;alias swap pink";
+alias	"pink"		"cl_crosshaircolor 5;cl_crosshaircolor_b 255;cl_crosshaircolor_r 255;cl_crosshaircolor_g 0;alias swap purple";
+alias	"purple"	"cl_crosshaircolor 5;cl_crosshaircolor_b 255;cl_crosshaircolor_r 150;cl_crosshaircolor_g 0;alias swap white";
+alias	"white"	"cl_crosshaircolor 5;cl_crosshaircolor_b 255;cl_crosshaircolor_r 255;cl_crosshaircolor_g 255;alias swap black";
+alias	"black"	"cl_crosshaircolor 5;cl_crosshaircolor_b 0;cl_crosshaircolor_r 0;cl_crosshaircolor_g 0;alias swap red";
+
 
 //网络参数可选 一直稳定 ping<45ms loss=0 var=0 choke=0 时可选↓指令 复制到auto.cfg中
 cl_interp 0;cl_interp_ratio 1;
