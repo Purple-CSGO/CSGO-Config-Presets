@@ -5,6 +5,16 @@
 
 >对接触csgo指令不熟悉的人和想方便改变、转移设置等玩家都有很大帮助
 
+### Cfg Preset v1.2c
+
+1.核心auto.cfg中加入voice_enable指令，以防使用demo/hlae.cfg后游戏队内交流语音被关闭
+
+2.更新显示队友位置和装备的指令cl_teamid_overhead_mode，原指令已失效
+
+3.添加cl_crosshair_friendly_warning指令[auto.cfg 73行]，设置成2后瞄准队友时会叠加一个褐色的默认静态准星
+
+4.“可选指令.txt”中加入了杀马特的鼠标左键切换准星颜色和WASD切换UI颜色
+
 ### Cfg Preset v1.2b
 
 根据9.20的更新进行若干修改
