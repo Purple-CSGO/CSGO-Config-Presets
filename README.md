@@ -5,6 +5,10 @@
 
 >对接触csgo指令不熟悉的人和想方便改变、转移设置等玩家都有很大帮助
 
+### Cfg Preset v1.2d
+
+1. 文本文档全部改用Markdown格式书写并导出的HTML页面
+
 ### Cfg Preset v1.2c
 
 1.核心auto.cfg中加入voice_enable指令，以防使用demo/hlae.cfg后游戏队内交流语音被关闭
