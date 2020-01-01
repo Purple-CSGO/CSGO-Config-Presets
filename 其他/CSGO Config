@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="CSGO Config" ext="cfg" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="yes" Keywords7="no" Keywords8="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">; &apos;&quot;&apos; &quot;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">god gods buddha noclip cl_drawhud snd_setmixer fog_enable fog_override mat_postprocess_enable mat_disable_bloom m_pitch demo_recordcommands mat_bloomamount_rate mat_bumpbasis mat_debugalttab mat_debug_bloom mat_debug_postprocessing_effects mat_fastnobump mat_force_bloom mat_hdr_enabled mat_leafvis mat_loadtextures mat_norendering mat_show_texture_memory_usage mat_softwareskin mat_surfaceid mat_surfacemat mat_yuv cl_predictweapons r_ambientfraction r_avglight r_avglightmap soundscape_fadetime r_lightcache_numambientsamples r_lightinterp r_lightstyle r_radiosity r_skin r_updaterefracttexture cl_soundscape_flush cl_weapon_debug_show_accuracy cl_weapon_debug_show_accuracy_duration weapon_debug_spread_show weapon_debug_spread_gap</Keywords>
+            <Keywords name="Keywords2">mat_queue_mode</Keywords>
+            <Keywords name="Keywords3">alias bind unbind bindtoggle toggle incrementvar play playvol echo say say_team callvote buy sdr record con_logfile give</Keywords>
+            <Keywords name="Keywords4">&apos;&quot;&apos; cl_ mat_ r_ net_ snd_ m_ zoom_ sky_ mm_ mg_ tv_ voice_ dsp_ hud_ ui_ fps_ key_ cl_crosshair safezone windows_ lobby_ option_ clear_ con_ gameinstructor_ spec_ engine_ econ_ viewmodel_ snd_ weapon_ sound_device_ host_ fog_ inv_sort_ radio ai_ bot_ budget_ bugreporter_ c_ cc_ sc_ cam_ cachedvalue_count_ texture_budget_ g15_ joy_ joystick_force_disabled xbox_ scene_ zoom_sensitivity_ mirv_</Keywords>
+            <Keywords name="Keywords5">player_competitive_maplist_8_7_0_77AED00 player_competitive_maplist_2v2_7_0_4C128440 player_nevershow_communityservermessage unbindall joystick lookspring lookstrafe rate sensitivity host_writeconfig +use -use +jump -jump +attack -attack +attack2 -attack2 +zoom -zoom +showscores -showscores +cl_show_team_equipment -cl_show_team_equipment +voicerecord -voicerecord +spray_menu -spray_menu +lookatweapon -lookatweapon ignorerad ignoremsg exec spectate +reload -reload +forward -forward +moveright -moveright +moveleft -moveleft +back -back +speed -speed +duck -duck +left -left +right -right +lookspin -lookspin +lookup -lookup +lookdown -lookdown slot1 slot2 slot3 slot4 slot5 slot6 slot7 slot8 slot9 slot10 slot11 lastinv toggleconsole showconsole hideconsole kick restartgame nextlevel changelevel cl_fixedcrosshairgap starttimeout scrambleteams swapteams hideoverviewmap use crosshair sensitivity log SNP FakeMessageLoss_Send FakeMessageLoss_Recv FakePacketLoss_Send FakePacketLoss_Recv SNP_DebugWindow SNP_SendBufferSize SNP_MaxRate SNP_MinRate SNP_Nagle_Time SNP_Log_RTT SNP_Log_Packet SNP_Log_Segments SNP_Log_Feedback SNP_Log_Reliable SNP_Log_Message SNP_Log_Loss SNP_Log_X SNP_Log_Nagle ClientConsecutitivePingTimeoutsFailInitial ClientConsecutitivePingTimeoutsFail ClientMinPingsBeforePingAccurate ClientSingleSocket FakePacketLag_Send FakePacketLag_Recv IpAllowWithoutAuth TimeoutSecondsInitial TimeoutSecondsConnected ClientForceRelayCluster ClientDebugTicketAddress ClientForceProxyAddr glock hkp2000 usp_silencer elite p250 tec9 fn57 cz75 deagle galilar famas ak47 m4a1 m4a1_silencer ssg08 aug sg556 awp scar20 g3sg1 nova xm1014 mag7 m249 negev mac10 mp9 mp7 mp5sd ump45 p90 bizon vest vesthelm taser defuser heavyarmor molotov incgrenade decoy flashbang hegrenade smokegrenade tagrenade clear condump volume password cpu_frequency_monitoring closeonbuy commentary_firstrun cursortimeout developer disconnect quit quit_prompt topleft topright bottomleft bottomright any all on off only_weapons heavy secondary rifle smg melee clothing flair0 item_definition:sticker,not_base_item spray musickit not_equipment nosounds none drop messagemode messagemode2 buymenu teammenu invprev invnext invnextgrenade invnextnongrenade autobuy rebuy mm_dedicated_search_maxping mm_dedicated_force_servers adsp_debug gameinstructor_enable mapoverview_icon_scale</Keywords>
+            <Keywords name="Keywords6">_ + -</Keywords>
+            <Keywords name="Keywords7">mouse1 mouse2 mouse3 mouse4 mouse5 f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 space alt ralt lwin rwin semicolon ctrl rctrl shift rshift tab backspace enter kp_home kp_uparrow kp_pgup kp_leftarrow kp_5 kp_rightarrow kp_end kp_downarrow kp_pgdn kp_slash kp_multiply kp_minus kp_plus kp_ins kp_del kp_enter rightarrow downarrow leftarrow uparrow capslock escape home end pgup pgdn mwheelup mwheeldown JOY1 JOY2 JOY3 JOY4 JOY5 JOY6 JOY7 JOY8 JOY9 JOY10 JOY11 JOY12 POV_DOWN &apos;&quot;1&quot;&apos; &apos;&quot;2&quot;&apos; &apos;&quot;3&quot;&apos; &apos;&quot;4&quot;&apos; &apos;&quot;5&quot;&apos; &apos;&quot;6&quot;&apos; &apos;&quot;7&quot;&apos; &apos;&quot;8&quot;&apos; &apos;&quot;9&quot;&apos; &apos;&quot;0&quot;&apos; a b c d e f g h i j k l m n o p q r s t u v w x y z . , - = ] [ \ / ^ $ &#x00E9; &#x00E8; &#x00E0; ! &lt; &gt; &quot;&apos;&quot; &quot;`&quot; del ins</Keywords>
+            <Keywords name="Keywords8">sv_ mp_ bot_ tv_ ds_ writeid writeip ammo_</Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="3C3C3C" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="CE0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="000000" bgColor="DFDFDF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800000" bgColor="FFFF80" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="E67300" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="DFDFDF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="CC4200" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="7A7A7A" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
