@@ -5,6 +5,10 @@
 
 >对接触csgo指令不熟悉的人和想方便改变、转移设置等玩家都有很大帮助
 
+## Cfg Preset v1.3d
+
+1. 修复**stream.cfg**的错误
+
 ## Cfg Preset v1.3c
 
 1. 修复**practice.cfg**中的速度不正常的问题
