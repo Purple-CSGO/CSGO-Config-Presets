@@ -1,1 +1,3 @@
 *.cfg linguist-language=CSGOConfig
+*.html linguist-language=CSGOConfig
+* text=auto
