@@ -1,4 +1,4 @@
-<center># CSGO CFG预设</center>
+# <center>CSGO CFG预设</center>
 
 <center>简体中文 | [English](https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/En-US/README.md) </center>
 
