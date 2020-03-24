@@ -112,8 +112,8 @@
 
 - 支付宝
 
-![](https://gitee.com/Purple-CSGO/Purp1e-Image-Hosting/raw/master/Alipay.png)
+![Alilpay](assets/Alipay.png)
 
 - 微信
 
-![](https://gitee.com/Purple-CSGO/Purp1e-Image-Hosting/raw/master/Wechat.png)
+![Wechat](assets/Wechat.png)
