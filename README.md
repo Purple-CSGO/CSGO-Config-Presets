@@ -65,7 +65,7 @@
 
 > 也可以先转移userdata下所有文件，登录你的steam，这时只会出现一个文件夹，文件夹名就是ID，记下这个ID，再把刚才转移的文件放回。
 
-> [CSGO工具箱][https://github.com/Purple-CSGO/CSGO-Toolbox]可以帮助快速定位steam，csgo，cfg文件夹的位置和ID（目前仅支持中文）
+> [CSGO工具箱](https://github.com/Purple-CSGO/CSGO-Toolbox)可以帮助快速定位steam，csgo，cfg文件夹的位置和ID（目前仅支持中文）
 
 #### 3. 阅读说明，浏览所有文件
 
