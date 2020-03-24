@@ -1,9 +1,9 @@
-<h1 align="center">CSGO CFG预设</h1>
-<h4 align="center">适用于CSGO几乎所有场景的CFG预设文件</h3>
+<h1 align="center">CSGO Config Presets</h1>
+<h4 align="center">A set of cfg files that cover nearly all scenarios in CSGO</h3>
 
 <p align="center">
-  简体中文 |
-  <a href="https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/En-US/README.md">English</a>
+  <a href="https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/master/README.md">简体中文</a> | English
+
   
 
 </p>
@@ -19,7 +19,7 @@
 
 项目始于2018年8月，这套CSGO的Config预设涵盖了几乎所有应用的场景，注释详细：
 
-|       使用场景       |     文件名称      |
+|      scenarios       |     File Name     |
 | :------------------: | :---------------: |
 |       游戏设置       |    `auto.cfg`     |
 | 准星参数（使用跳投） |  `crosshair.cfg`  |
