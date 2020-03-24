@@ -6,7 +6,7 @@
   <a href="https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/En-US/README.md">English</a>
 </p>
 
-[![stars](https://flat.badgen.net/github/stars/Purple-CSGO/CSGO-Config-Presets?icon=github)](https://github.com/Purple-CSGO/CSGO-Config-Presets)![license](https://img.shields.io/badge/license-GPL%203-green.svg?style=flat-square) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?style=flat-square)]([https://github.com/Purple-CSGO/CSGO-Config-Presets#%E6%8D%90%E8%B5%A0](https://github.com/Purple-CSGO/CSGO-Config-Presets#捐赠))
+​                                          [![stars](https://flat.badgen.net/github/stars/Purple-CSGO/CSGO-Config-Presets?icon=github)](https://github.com/Purple-CSGO/CSGO-Config-Presets) ![license](https://img.shields.io/badge/license-GPL%203-green.svg?style=flat-square) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?style=flat-square)]([https://github.com/Purple-CSGO/CSGO-Config-Presets](https://github.com/Purple-CSGO/CSGO-Config-Presets#捐赠)) [![release](https://flat.badgen.net/github/release/Purple-CSGO/CSGO-Config-Presets/babel)](https://github.com/Purple-CSGO/CSGO-Config-Presets/release)
 
 ## 简介
 
