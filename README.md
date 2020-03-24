@@ -112,7 +112,7 @@
 
 - 支付宝：
 
-![Alilpay](assets/Alipay.png)
+![Alipay](assets/Alipay.png)
 
 - 微信：
 
