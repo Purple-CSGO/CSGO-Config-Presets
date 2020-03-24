@@ -4,7 +4,7 @@
 <p align="center">
   <a href="https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/master/README.md">简体中文</a> | English
 
-  
+
 
 </p>
 
@@ -15,108 +15,116 @@
 [![translation](https://img.shields.io/badge/$-translation-ff69b4.svg?style=flat&color=blueviolet)](https://github.com/Purple-CSGO/CSGO-Config-Presets#翻译)
 [![release](https://img.shields.io/github/release/Purple-CSGO/CSGO-Config-Presets.svg?style=flat&color=blue)](https://github.com/Purple-CSGO/CSGO-Config-Presets/releases)
 
-## 简介
+## About
 
-项目始于2018年8月，这套CSGO的Config预设涵盖了几乎所有应用的场景，注释详细：
+The project started on Aug. 2018. This set of CSGO config presets cover almost all scenarios in game, and they are well commented:
 
-|      scenarios       |     File Name     |
-| :------------------: | :---------------: |
-|       游戏设置       |    `auto.cfg`     |
-| 准星参数（使用跳投） |  `crosshair.cfg`  |
-|       跑图指令       |  `practice.cfg`   |
-|       本地solo       |    `solo.cfg`     |
-|       观看demo       |    `demo.cfg`     |
-|     录制集锦素材     |    `hlae.cfg`     |
-|      自拍杆视角      |    `cals.cfg`     |
-|      ffmpeg录制      |   `ffmpeg.cfg`    |
-|       分层录制       |   `stream.cfg`    |
-|  导出准星&持枪参数   |   `export.cfg`    |
-|     导播/观察者      |       暂无        |
-|  Notepad++语法高亮   | `CSGO Config.xml` |
+|             scenarios             |     File Name     |
+| :-------------------------------: | :---------------: |
+|           Game Settings           |    `auto.cfg`     |
+| Crosshair settings(for jumpthrow) |  `crosshair.cfg`  |
+|        Practice nading and        |  `practice.cfg`   |
+|            Local Duel             |    `solo.cfg`     |
+|            Watch demo             |    `demo.cfg`     |
+|       Record movie footages       |    `hlae.cfg`     |
+|            Selfie View            |    `cals.cfg`     |
+|         FFMPEG recording          |   `ffmpeg.cfg`    |
+|      Multi-stream recording       |   `stream.cfg`    |
+|   Export crosshair&vm settings    |   `export.cfg`    |
+|            Observer/OB            |      not yet      |
+|   Notepad++ Syntax highlighting   | `CSGO Config.xml` |
 
-所有的参数都经过详细的测试，按键位置仔细斟酌，确保每个功能的按键都在它用起来最舒服的位置。适用于对CSGO指令不太熟悉，想要到手即用，节省时间的玩家，亦或是想要参考他人的代码来丰富自己CFG的玩家。
+All the parameters are tested in detail, and the hotkeys are carefully considered to ensure that each hotkey is at the very place it should be. It is suitable for players who are not familiar with CSGO commands but want to be out-of-the-box and save time, or for players who want to imporve their ownCFG by referring to other people's code.
 
-下载这套预设之后，根据使用说明，备份设置、简单修改参数、放在正确的位置、设置启动项后即可享受预设带来的便利，一般整个过程不超过30分钟。
+After downloading this set of presets, according to the instructions, **backup Settings**, simply **tweak the parameters**, **placing them** in correct position, and **set up launch option**, then you can enjoy the convenience of the presets. Generally, the whole process does not exceed 30 minutes.
 
-## 下载
+## Download
 
 [Releases](https://github.com/Purple-CSGO/CSGO-Config-Presets/releases)
 
-[奶牛快传](https://c-t.work/s/ee0709ed4bb940) （免费次数用完后请提醒更新链接）
+[CowTransfer](https://c-t.work/s/ee0709ed4bb940)  (Remind me to update the link if it's not free)
 
-## 用法
+## Usage
 
-#### 1. 备份设置
+#### 1. Back up settings
 
-务必先把现有的设置打包备份到另一个地方！！
+First of all, backup all your settins to another place!!
 
-- 个人设置文件夹`...\Steam\userdata\(32位ID)\730\local\cfg\`
-- 游戏设置文件夹`...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`
+- Personal CFG folder`...\Steam\userdata\(32bit ID)\730\local\cfg\`
+- CSGO CFG folder`...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`
 
-#### 2. ID不知道怎么办？
+#### 2. What if u don't know the ID?
 
-`userdata`位置只有一个文件夹是，其名称就是ID，如果有多个且分辨不出：
+If there's only one dir in `userdata`, its name is your ID. If there are many dirs:
 
-- 登录 https://steamid.io/
+- Open https://steamid.io/
 
-- 复制个人资料简介，如 `https://steamcommunity.com/id/1234567890/`
+- Copy your steam profile link, i.e. `https://steamcommunity.com/id/1234567890/`
 
-- 第二行，如 SteamID3 [U:1:`146859713`]  得到ID `146859713`
+- In the 2nd line, like SteamID3 [U:1:`146859713`]. `146859713` is the ID
 
-> 也可以先转移userdata下所有文件，登录你的steam，这时只会出现一个文件夹，文件夹名就是ID，记下这个ID，再把刚才转移的文件放回。
+> Also, you could move all files in userdata to another place, login steam, then a new dir appears. Its name is your ID. Remember that and paste all files back.
 
-> [CSGO工具箱][https://github.com/Purple-CSGO/CSGO-Toolbox]可以帮助快速定位steam，csgo，cfg文件夹的位置和ID（目前仅支持中文）
+> [CSGO Toolbox][https://github.com/Purple-CSGO/CSGO-Toolbox] could help you get steam，csgo，cfg path and steam 32bit ID (but it only supports Chinese now).
 
-#### 3. 阅读说明，浏览所有文件
+#### 3. Read  instructions and read through all the files
 
-#### 4. 修改参数设置
+#### 4. Tweek parameters
 
-预设中的部分设置一定和你的习惯不同，请调整预设中的参数。可以使用窗口模式，方便操作。
+Some of the preset Settings must be different from yours. Please tweek the preset's parameters. You could use windowed mode to do that conveniently.
 
-- 修改`auto.cfg`
-- 写入自定义准星&持枪参数（如果需要）
-  - 可在创意工坊中调整准星、持枪并导出参数
-  - 可以提前放入**export.cfg**，控制台中使用`exec export`即可导出准星和持枪参数
-- 修改其他如`hlae.cfg`的参数
+- modify ` auto. CFG `
 
-#### 5. 根据`auto.cfg`中的说明，设置启动项
+- copy and past custom Crosshair&ViewModel parameters (if neccessary)
+
+  - adjust alignment, gun and export parameters in the creative workshop
+
+  - You could put **export.cfg** into cfg folder in advance, `exec export` in console so as to export all Crosshair&ViewModel parameters
+
+- modify other parameters such as that of `hlae.cfg`
+
+#### 5. Set up launch option according to the instructions in `auto.cfg`
 
 ```
 -high -novid -nojoy -d3d9ex -refresh 144 -freq 144 -tickrate 128 +exec auto.cfg
 ```
 
-注意：**B5、5E、FACEIT等平台的启动项**请在他们的客户端中设置。
+Alert: **Launch options in B5, 5E, FACEIT ...** are different and must be set up in their clients 
 
-#### **6. 转移到CFG文件夹并在本地测试**
+#### **6. Transfer all files into CFG folder and test**
+
+## Other
+
+`//` represents comment. Things after that are ignored.
 
 ## 其它
 
 `//`是注释，其后内容失效：
 
 ```
-这是指令;	//这是注释
+This is command;	//This is comment
 ```
 
-如果不想用某条指令，就在指令前加上注释，或者直接删除：
+If you don't want to use certain command, just add // before it, or directly delete it:
 
 ```
-//这是指令;	//这是注释
+//This is command;	//This is comment
 ```
 
-## 翻译
+## Translation
 
-如果你想参与翻译工作，将预设翻译为其他语言，请在[issues](https://github.com/Purple-CSGO/CSGO-Config-Presets/issues)中提出。
+If you want to contribute translation, and interpret presets to other languages, please propose in [issues](https://github.com/Purple-CSGO/CSGO-Config-Presets/issues).
 
-`En-US`的第一版翻译将由本人在8周内完成。
+First fully translated version of `En-US` will come out in 8 weeks.
 
-## 捐赠
+## Donation
 
-捐赠请备注昵称和`CFG预设`以便区分：
+Please note `CFG Preset` when donating for not messing up.
 
-- 支付宝：
+- Alipay:
 
 ![Alipay](Assets/Alipay.png)
 
-- 微信：
+- Wechat:
 
 ![Wechat](Assets/Wechat.png)
