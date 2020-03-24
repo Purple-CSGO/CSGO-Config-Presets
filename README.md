@@ -5,20 +5,34 @@
   简体中文 |
   <a href="https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/En-US/README.md">English</a>
 </p>
-
-​                                          [![stars](https://flat.badgen.net/github/stars/Purple-CSGO/CSGO-Config-Presets?icon=github)](https://github.com/Purple-CSGO/CSGO-Config-Presets) ![license](https://img.shields.io/badge/license-GPL%203-green.svg?style=flat-square) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?style=flat-square)]([https://github.com/Purple-CSGO/CSGO-Config-Presets](https://github.com/Purple-CSGO/CSGO-Config-Presets#捐赠)) [![release](https://flat.badgen.net/github/release/Purple-CSGO/CSGO-Config-Presets/babel)](https://github.com/Purple-CSGO/CSGO-Config-Presets/releases)
+[![stars](https://img.shields.io/github/stars/Purple-CSGO/CSGO-Config-Presets.svg?style=flat&color=green)](https://github.com/Purple-CSGO/CSGO-Config-Presets) [![fork](https://img.shields.io/github/forks/Purple-CSGO/CSGO-Config-Presets.svg?style=flat&color=critical)](https://github.com/Purple-CSGO/CSGO-Config-Presets) ![license](https://img.shields.io/badge/license-GPL%203-orange.svg?style=flat) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?style=flat)]([https://github.com/Purple-CSGO/CSGO-Config-Presets#捐赠](https://github.com/Purple-CSGO/CSGO-Config-Presets#捐赠)) [![release](https://img.shields.io/github/release/Purple-CSGO/CSGO-Config-Presets.svg?style=flat&color=blue)](https://github.com/Purple-CSGO/CSGO-Config-Presets/releases)
 
 ## 简介
 
-这是我个人写的CSGO config的预设，包含各种应用场景，注释详细
+项目始于2018年8月，这套CSGO的Config预设涵盖了几乎所有应用的场景，注释详细：
 
-涉及很多日常使用的指令和功能（服务器指令pass），实时修改更新
+|     使用场景      |    CFG名称     |
+| :---------------: | :------------: |
+|     游戏设置      |   `auto.cfg`   |
+|     跑图指令      | `practice.cfg` |
+|     本地solo      |   `solo.cfg`   |
+|     观看demo      |   `demo.cfg`   |
+|   录制集锦素材    |   `hlae.cfg`   |
+|    自拍杆视角     |   `cals.cfg`   |
+|    ffmpeg录制     |  `ffmpeg.cfg`  |
+|     分层录制      |  `stream.cfg`  |
+| 导出准星&持枪参数 |  `export.cfg`  |
+|    导播/观察者    |      暂无      |
 
-对接触csgo指令不熟悉的人和想方便改变、转移设置等玩家都有很大帮助
+所有的参数都经过详细的测试，按键位置仔细斟酌，确保每个功能的按键都在它用起来最舒服的位置。适用于对CSGO指令不太熟悉，想要到手即用，节省时间的玩家，亦或是想要参考他人的代码来丰富自己CFG的玩家。
+
+下载这套预设之后，根据使用说明，备份设置、简单修改参数、放在正确的位置、设置启动项后即可享受预设带来的便利，一般整个过程不超过30分钟。
 
 ## 下载
 
+[Releases](https://github.com/Purple-CSGO/CSGO-Config-Presets/releases)
 
+[奶牛快传](https://c-t.work/s/ee0709ed4bb940) （免费次数用完后请提醒更新链接）
 
 ## 用法
 
@@ -30,3 +44,12 @@
 
 ## 捐赠
 
+捐赠请备注昵称和`CFG预设`以便区分：
+
+- 支付宝
+
+<img src="https://gitee.com/Purple-CSGO/Purp1e-Image-Hosting/raw/master/1583847105466.jpg" style="zoom:25%;" />
+
+- 微信
+
+<img src="https://gitee.com/Purple-CSGO/Purp1e-Image-Hosting/raw/master/mm_facetoface_collect_qrcode_1580722926875.png" style="zoom:25%;" />
