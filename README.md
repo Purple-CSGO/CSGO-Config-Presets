@@ -54,8 +54,8 @@
 
 - 支付宝
 
-<img src="https://gitee.com/Purple-CSGO/Purp1e-Image-Hosting/raw/master/1583847105466.jpg" style="zoom:25%;" />
+![](https://gitee.com/Purple-CSGO/Purp1e-Image-Hosting/raw/master/Alipay.png)
 
 - 微信
 
-<img src="https://gitee.com/Purple-CSGO/Purp1e-Image-Hosting/raw/master/mm_facetoface_collect_qrcode_1580722926875.png" style="zoom:25%;" />
+![](https://gitee.com/Purple-CSGO/Purp1e-Image-Hosting/raw/master/Wechat.png)
