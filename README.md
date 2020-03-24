@@ -65,7 +65,7 @@ If there's only one dir in `userdata`, its name is your ID. If there are many di
 
 > Also, you could move all files in userdata to another place, login steam, then a new dir appears. Its name is your ID. Remember that and paste all files back.
 
-> [CSGO Toolbox][https://github.com/Purple-CSGO/CSGO-Toolbox] could help you get steam，csgo，cfg path and steam 32bit ID (but it only supports Chinese now).
+> [CSGO Toolbox](https://github.com/Purple-CSGO/CSGO-Toolbox) could help you get steam，csgo，cfg path and steam 32bit ID (but it only supports Chinese now).
 
 #### 3. Read  instructions and read through all the files
 
@@ -73,13 +73,13 @@ If there's only one dir in `userdata`, its name is your ID. If there are many di
 
 Some of the preset Settings must be different from yours. Please tweek the preset's parameters. You could use windowed mode to do that conveniently.
 
-- modify ` auto. CFG `
+- modify ` auto.cfg `
 
 - copy and past custom Crosshair&ViewModel parameters (if neccessary)
 
-  - adjust alignment, gun and export parameters in the creative workshop
+  - You could tweek Crosshair&ViewModel parameters in workshop maps and export
 
-  - You could put **export.cfg** into cfg folder in advance, `exec export` in console so as to export all Crosshair&ViewModel parameters
+  - You could also put **export.cfg** into cfg folder in advance, `exec export` in console so as to export all Crosshair&ViewModel parameters
 
 - modify other parameters such as that of `hlae.cfg`
 
@@ -96,10 +96,6 @@ Alert: **Launch options in B5, 5E, FACEIT ...** are different and must be set up
 ## Other
 
 `//` represents comment. Things after that are ignored.
-
-## 其它
-
-`//`是注释，其后内容失效：
 
 ```
 This is command;	//This is comment
