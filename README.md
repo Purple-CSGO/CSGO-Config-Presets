@@ -110,10 +110,10 @@
 
 捐赠请备注昵称和`CFG预设`以便区分：
 
-- 支付宝
+- 支付宝：
 
 ![Alilpay](assets/Alipay.png)
 
-- 微信
+- 微信：
 
 ![Wechat](assets/Wechat.png)
