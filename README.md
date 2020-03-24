@@ -112,8 +112,8 @@
 
 - 支付宝：
 
-![Alipay](assets/Alipay.png)
+![Alipay](Assets/Alipay.png)
 
 - 微信：
 
-![Wechat](assets/Wechat.png)
+![Wechat](Assets/Wechat.png)
