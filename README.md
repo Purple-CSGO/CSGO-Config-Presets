@@ -67,7 +67,11 @@
 
 > [CSGO工具箱](https://github.com/Purple-CSGO/CSGO-Toolbox)可以帮助快速定位steam，csgo，cfg文件夹的位置和ID（目前仅支持中文）
 
-#### 3. 阅读说明，浏览所有文件
+#### 3. 阅读说明，浏览所有文件，安装跑图脚本
+
+把`practiceExt.nut`放置在如下位置：
+
+`...\Counter-Strike Global Offensive\csgo\scripts\vscripts`
 
 #### 4. 修改参数设置
 
@@ -87,7 +91,7 @@
 
 注意：**B5、5E、FACEIT等平台的启动项**请在他们的客户端中设置。
 
-#### **6. 转移到CFG文件夹并在本地测试**
+#### **6. 把修改好的CFG转移到CFG文件夹并在本地测试**
 
 ## 其它
 
@@ -107,7 +111,7 @@
 
 如果你想参与翻译工作，将预设翻译为其他语言，请在[issues](https://github.com/Purple-CSGO/CSGO-Config-Presets/issues)中提出。
 
-`En-US`的第一版翻译将由本人在8周内完成。
+`En-US`的翻译工作正在进行。
 
 ## 捐赠
 
