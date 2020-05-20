@@ -32,6 +32,7 @@ The project started on Aug. 2018. This set of CSGO config presets cover almost a
 |      Multi-stream recording       |   `stream.cfg`    |
 |   Export crosshair&vm settings    |   `export.cfg`    |
 |            Observer/OB            |      not yet      |
+|     Practice Enhance Vscript      | `practiceExt.nut` |
 |   Notepad++ Syntax highlighting   | `CSGO Config.xml` |
 
 All the parameters are tested in detail, and the hotkeys are carefully considered to ensure that each hotkey is at the very place it should be. It is suitable for players who are not familiar with CSGO commands but want to be out-of-the-box and save time, or for players who want to imporve their ownCFG by referring to other people's code.
@@ -93,6 +94,10 @@ Alert: **Launch options in B5, 5E, FACEIT ...** are different and must be set up
 
 #### **6. Transfer all files into CFG folder and test**
 
+`practiceExt.nut` should be placed in the following location:
+
+`...\Counter-Strike Global Offensive\csgo\scripts\vscripts`
+
 ## Other
 
 `//` represents comment. Things after that are ignored.
@@ -119,8 +124,8 @@ Please note `CFG Preset` when donating for not messing up.
 
 - Alipay:
 
-![Alipay](Assets/Alipay.png)
+![Alipay](Alipay.png)
 
 - Wechat:
 
-![Wechat](Assets/Wechat.png)
+![Wechat](Wechat.png)
