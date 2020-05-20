@@ -109,5 +109,70 @@ function cam( i, j ) {
 
 function hint() {
 	//打印practice.cfg中的指令提示
-	
+	printl("█▀▀█  █  █  █▀▀█  █▀▀█ ▄█  █▀▀▀    █▀▀ █▀▀ █▀▀▀ 　 ▄█    █▀▀█" );
+	printl("█▄▄█  █  █  █▄▄▀  █▄▄█  █  █▀▀▀    █   █▀▀ █ ▀█ 　  █      ▀▄");
+	printl("█     ▀▄▄▀  █  █  █    ▄█▄ █▄▄▄    ▀▀▀ ▀   ▀▀▀▀ 　 ▄█▄ █ █▄▄█ ");
+	printl("═════════════════════════════════════════════════════════════");
+	printl("──── 加载设置[auto.cfg]		:  exec auto");
+	printl("──── 跑图,练习道具  		:  exec practice");
+	printl("──── 对枪,SOLO   		:  exec solo");
+	printl("──── 地图中加载设置[auto.cfg]  	:  Insert键");
+	printl("──── 地图中一键跑图[practice.cfg]	:  Delete键");
+	printl("──────────────────────  快捷键<开关式>  ────────────────────────");
+	printl("──── 弹着点/投掷物轨迹显示 	:  H");
+	printl("──── BOT蹲下 		:  J");
+	printl("──── 杀死BOT 		:  K");
+	printl("──── 切换透视模式 		:  L");
+	printl("──── 切换Bhop开和关	:  P");
+	printl("──── 重现最近一次投掷物	:  T");
+	printl("──── 切换实时预测轨迹	:  ，");
+	printl("──── 加速时间，松开恢复	:  。 （帧数暴跌，队友会卡住）");
+	printl("──── 预测投掷物轨迹30s	:  /");
+	printl("──── 添加BOT  		:  ↑");
+	printl("──── 删除BOT  		:  ↓");
+	printl("──── 放置BOT  		:  ←");
+	printl("──── 重新开始 		:  →");
+	printl("──── 飞行      		:  Alt");
+	printl("───────────────  依次生成原版刀 *装备原版刀时生效*  ─────────────────");
+	printl("──── 穿肠 > 折叠 > 刺刀 > M9刺刀 > 爪子刀  : 9");
+	printl("──── 鲍伊 > 蝴蝶 > 猎杀者 > 暗影双匕 > 弯刀 : 0");
+	printl("──── 折刀 > 短剑 > 熊刀 > 锯齿爪 > 幽灵之刃 : -");
+	printl("──── 海豹 > 求生 > 流浪者 > 系绳 > 骷髅匕首 : =");
+	printl("──────────────────────  BOT相关  ─────────────────────────────");
+	printl("──── BOT难度(3>2>1>0)	:  bot_difficulty 3;");
+	printl("──── BOT静止	 	:  bot_stop 1;");
+	printl("──── BOT拿刀		:  bot_knives_only;");
+	printl("──── BOT拿手枪		:  bot_pistols_only;");
+	printl("──── BOT全武器		:  bot_all_weapons;");
+	printl("──── BOT加入队伍(any=任意)	:  bot_join_team ct;");
+	printl("──── BOT模仿玩家动作 	:  bot_mimic 1;");
+	printl("──── BOT蹲下  		:  bot_crouch 1; ");
+	printl("──── 添加BOT  		:  bot_add;");
+	printl("──── 删除BOT  		:  bot_kick;");
+	printl("──── 杀死BOT		:  bot_kill;");
+	printl("──── 放置BOT 		:  bot_place;");
+	printl("──────────────────────  常用指令  ─────────────────────────────");
+	printl("──── 热身开始		:  mp_warmup_start;");
+	printl("──── 热身结束		:  mp_warmup_end;");
+	printl("──── 重新开始游戏		:  mp_restartgame 1;");
+	printl("──── 回合开始静止1s      	:  mp_freezetime 1;");
+	printl("──── 回合结束等待2s      	:  mp_round_restart_delay 2;");
+	printl("──── 投掷物轨迹时间30s   	:  sv_grenade_trajectory_time 30;");
+	printl("──── 弹着点时间30s		:  sv_showimpacts_time 30;");
+	printl("──── C4爆炸时间999s     	:  mp_c4timer 999;");
+	printl("──── C4任意处放置		:  mp_plant_c4_anywhere 1;");
+	printl("──── 队友伤害		:  mp_teammates_are_enemies 1;");
+	printl("──── 忽视胜利条件	    	:  mp_ignore_round_win_conditions 1;");
+	printl("──── 雷达显示所有人		:  mp_radar_showall 1;" );
+	printl("──── 调整护甲(2=全甲)	:  mp_free_armor 1;");
+	printl("──── 无敌(个人)		:  god;");
+	printl("──── 无敌(所有人)		:  gods;");
+	printl("──────────────────────  脚本功能  ─────────────────────────────");
+	printl("──── 保存点A 		:  i");
+	printl("──── 回到点A 		:  o");
+	printl("──── 保存点B 		:  [");
+	printl("──── 回到点B 		:  ]");
+	printl("──── 打印提示(指令)	:  hint");
+	printl("═════════════════════════════════════════════════════════════");
+
 }
