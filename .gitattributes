@@ -1,4 +1,3 @@
-*.cfg linguist-language=CSGOConfig
-*.html linguist-language=CSGOConfig
-*.md linguist-language=CSGOConfig
-*.png linguist-language=CSGOConfig
+*.cfg linguist-language=Squirrel
+*.md linguist-language=Markdown
+*.nut linguist-language=Squirrel

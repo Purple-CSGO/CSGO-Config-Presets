@@ -2,7 +2,7 @@
 
 Purp1e(@[Purple-CSGO](https://space.bilibili.com/73115492))制作
 
-博客：https://purp1e.site/tags/CSGO/
+博客：https://purp1e.top/tag/csgo/
 
 简书： https://www.jianshu.com/u/a29b25290dd7
 
@@ -10,9 +10,9 @@ Purp1e(@[Purple-CSGO](https://space.bilibili.com/73115492))制作
 
 -- --
 
-现在可以通过支付宝的方式来支持我啦~
+现在可以通过支付宝的方式来支持我啦~（请备注`CFG捐赠`）
 
-<img src="Alipay.png" alt="支付宝" style="zoom: 75%;" />
+<img src="支付宝.png" alt="支付宝" style="zoom: 75%;" />
 
 -- --
 
@@ -38,10 +38,6 @@ Purp1e(@[Purple-CSGO](https://space.bilibili.com/73115492))制作
    
 - **practice.cfg**
    **跑图**用cfg 方便跑图设置各种参数和键位绑定 控制台有中文提示
-   
-- **knife.cfg**
-  
-   搭配跑图`practic.cfg`使用 实现分批次生成原版刀
    
 - **solo.cfg**
    进行solo 2v2 3v3等场景时使用的config 一次设置各种参数 另有设置solo模式的快捷键
@@ -72,6 +68,12 @@ Purp1e(@[Purple-CSGO](https://space.bilibili.com/73115492))制作
    搭配HLAE实现分层录制 已经集成好95%以上的指令 使用起来非常方便
 
 > 其他
+
+- practiceExt.nut
+
+  本地跑图扩展脚本，需要放置在以下位置，加载practice.cfg后自动生效
+
+  `..\Counter-Strike Global Offensive\csgo\scripts\vscripts`
 
 - CSGO Config.xml
 
