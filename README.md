@@ -43,7 +43,7 @@
 
 [Releases](https://github.com/Purple-CSGO/CSGO-Config-Presets/releases)
 
-[奶牛快传](https://c-t.work/s/ee0709ed4bb940) （免费次数用完后请提醒更新链接）
+[天翼云](https://cloud.189.cn/t/bm6bYjRRV7Fn（访问码：6fjs）)
 
 ## 用法
 
