@@ -8,6 +8,7 @@
 //SendToConsole( @"bind o ""script loadA()"" " );
 //SendToConsole( @"bind [ ""script storeB()"" " );
 //SendToConsole( @"bind ] ""script loadB()"" " );
+//SendToConsole( @"bind \ ""script sethp()"" " );
 
 // 初始化
 ent <- null;		//定义物体变量
@@ -20,6 +21,11 @@ name <- ["knife_gut", "knife_Flip", "bayonet", "knife_m9_bayonet", "knife_Karamb
 name_print <- ["穿肠刀", "折叠刀", "刺刀 ", "M9刺刀", "爪子刀", "鲍伊猎刀", "蝴蝶刀", "猎杀者匕首", "暗影双匕", "弯刀", "折刀", "短剑", "熊刀", "锯齿爪刀", "幽灵之刃", "海豹短刀", "求生匕首", "流浪者匕首", "系绳匕首", "骷髅匕首"];
 choice <- [0, 0, 0, 0];
 printl( @">>> 跑图CFG扩展脚本初始化完成" );
+
+
+function sethp() {
+	SendToConsole( @"ent_fire !self addoutput ""health 100"" " );
+}
 
 //生成刀
 function dropknife(i) {
@@ -109,35 +115,15 @@ function cam( i, j ) {
 
 function hint() {
 	//打印practice.cfg中的指令提示
-	printl("█▀▀█  █  █  █▀▀█  █▀▀█ ▄█  █▀▀▀    █▀▀ █▀▀ █▀▀▀ 　 ▄█    █▀▀█" );
-	printl("█▄▄█  █  █  █▄▄▀  █▄▄█  █  █▀▀▀    █   █▀▀ █ ▀█ 　  █      ▀▄");
-	printl("█     ▀▄▄▀  █  █  █    ▄█▄ █▄▄▄    ▀▀▀ ▀   ▀▀▀▀ 　 ▄█▄ █ █▄▄█ ");
+	printl("█▀▀█  █  █  █▀▀█  █▀▀█ ▄█  █▀▀▀    █▀▀ █▀▀ █▀▀▀ 　 ▄█     █▀█ ");
+	printl("█▄▄█  █  █  █▄▄▀  █▄▄█  █  █▀▀▀    █   █▀▀ █ ▀█ 　  █    █▄▄█▄");
+	printl("█     ▀▄▄▀  █  █  █    ▄█▄ █▄▄▄    ▀▀▀ ▀   ▀▀▀▀ 　 ▄█▄ █    █ ");
 	printl("═════════════════════════════════════════════════════════════");
 	printl("──── 加载设置[auto.cfg]		:  exec auto");
 	printl("──── 跑图,练习道具  		:  exec practice");
 	printl("──── 对枪,SOLO   		:  exec solo");
 	printl("──── 地图中加载设置[auto.cfg]  	:  Insert键");
 	printl("──── 地图中一键跑图[practice.cfg]	:  Delete键");
-	printl("──────────────────────  快捷键<开关式>  ────────────────────────");
-	printl("──── 弹着点/投掷物轨迹显示 	:  H");
-	printl("──── BOT蹲下 		:  J");
-	printl("──── 杀死BOT 		:  K");
-	printl("──── 切换透视模式 		:  L");
-	printl("──── 切换Bhop开和关	:  P");
-	printl("──── 重现最近一次投掷物	:  T");
-	printl("──── 切换实时预测轨迹	:  ，");
-	printl("──── 加速时间，松开恢复	:  。 （帧数暴跌，队友会卡住）");
-	printl("──── 预测投掷物轨迹30s	:  /");
-	printl("──── 添加BOT  		:  ↑");
-	printl("──── 删除BOT  		:  ↓");
-	printl("──── 放置BOT  		:  ←");
-	printl("──── 重新开始 		:  →");
-	printl("──── 飞行      		:  Alt");
-	printl("───────────────  依次生成原版刀 *装备原版刀时生效*  ─────────────────");
-	printl("──── 穿肠 > 折叠 > 刺刀 > M9刺刀 > 爪子刀  : 9");
-	printl("──── 鲍伊 > 蝴蝶 > 猎杀者 > 暗影双匕 > 弯刀 : 0");
-	printl("──── 折刀 > 短剑 > 熊刀 > 锯齿爪 > 幽灵之刃 : -");
-	printl("──── 海豹 > 求生 > 流浪者 > 系绳 > 骷髅匕首 : =");
 	printl("──────────────────────  BOT相关  ─────────────────────────────");
 	printl("──── BOT难度(3>2>1>0)	:  bot_difficulty 3;");
 	printl("──── BOT静止	 	:  bot_stop 1;");
@@ -146,6 +132,7 @@ function hint() {
 	printl("──── BOT全武器		:  bot_all_weapons;");
 	printl("──── BOT加入队伍(any=任意)	:  bot_join_team ct;");
 	printl("──── BOT模仿玩家动作 	:  bot_mimic 1;");
+	printl("──── BOT模仿角度偏移 	:  bot_mimic_yaw_offset 180;");
 	printl("──── BOT蹲下  		:  bot_crouch 1; ");
 	printl("──── 添加BOT  		:  bot_add;");
 	printl("──── 删除BOT  		:  bot_kick;");
@@ -167,12 +154,33 @@ function hint() {
 	printl("──── 调整护甲(2=全甲)	:  mp_free_armor 1;");
 	printl("──── 无敌(个人)		:  god;");
 	printl("──── 无敌(所有人)		:  gods;");
+	printl("───────────────────────  快捷键  ─────────────────────────────");
+	printl("──── 弹着点/投掷物轨迹显示 	:  H");
+	printl("──── BOT蹲下 		:  J");
+	printl("──── 杀死BOT 		:  K");
+	printl("──── 切换透视模式 		:  L");
+	printl("──── 切换Bhop开和关	:  P");
+	printl("──── 重现最近一次投掷物	:  T");
+	printl("──── 切换实时预测轨迹	:  ，");
+	printl("──── 加速时间，松开恢复	:  。 （帧数暴跌，队友会卡住）");
+	printl("──── 预测投掷物轨迹30s	:  /");
+	printl("──── 添加BOT  		:  ↑");
+	printl("──── 删除BOT  		:  ↓");
+	printl("──── 放置BOT  		:  ←");
+	printl("──── 重新开始 		:  →");
+	printl("──── 飞行      		:  Alt");
 	printl("──────────────────────  脚本功能  ─────────────────────────────");
 	printl("──── 保存点A 		:  i");
 	printl("──── 回到点A 		:  o");
 	printl("──── 保存点B 		:  [");
 	printl("──── 回到点B 		:  ]");
+	printl(@"──── 补齐血条头甲和满道具	:  \");
 	printl("──── 打印提示(指令)	:  hint");
+	printl("───────────────  依次生成原版刀 *装备原版刀时生效*  ───────────");
+	printl("──── 穿肠 > 折叠 > 刺刀 > M9刺刀 > 爪子刀  : 9");
+	printl("──── 鲍伊 > 蝴蝶 > 猎杀者 > 暗影双匕 > 弯刀 : 0");
+	printl("──── 折刀 > 短剑 > 熊刀 > 锯齿爪 > 幽灵之刃 : -");
+	printl("──── 海豹 > 求生 > 流浪者 > 系绳 > 骷髅匕首 : =");
 	printl("═════════════════════════════════════════════════════════════");
-
+	printl("·在线游戏时请勿加载或多次加载本CFG，可能会被踢出");
 }
