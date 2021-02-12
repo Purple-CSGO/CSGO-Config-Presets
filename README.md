@@ -5,3 +5,4 @@
 ### 修改auto.cfg，并补充个人使用的参数 2.12.2021
 ### 修改practise中杀死bot为消灭bot 2.12.2021
 ## 修改nut和practise，更改出刀顺序和控制提示
+### 添加Self-entertainment.cfg，自娱自乐模拟器，菜鸟的快乐就是这么简单😝
