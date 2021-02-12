@@ -17,8 +17,8 @@ PositionA <- Vector(0, 0, 0);		//定义A位置变量
 AngleA <- Vector(0, 0, 0);		//定义A角度变量
 PositionB <- Vector(0, 0, 0);		//定义B位置变量
 AngleB <- Vector(0, 0, 0);		//定义B角度变量
-name <- ["knife_gut", "knife_Flip", "bayonet", "knife_m9_bayonet", "knife_Karambit", "knife_survival_bowie", "knife_butterfly", "knife_tactical", "knife_push", "knife_falchion", "knife_gypsy_jackknife", "knife_stiletto", "knife_ursus", "knife_widowmaker", "knife_ghost", "knife_css", "knife_canis", "knife_outdoor", "knife_cord", "knife_Skeleton"];
-name_print <- ["穿肠刀", "折叠刀", "刺刀 ", "M9刺刀", "爪子刀", "鲍伊猎刀", "蝴蝶刀", "猎杀者匕首", "暗影双匕", "弯刀", "折刀", "短剑", "熊刀", "锯齿爪刀", "幽灵之刃", "海豹短刀", "求生匕首", "流浪者匕首", "系绳匕首", "骷髅匕首"];
+name <- ["knife_butterfly", "knife_Karambit", "knife_stiletto", "knife_ursus", "bayonet", "knife_gut", "knife_Flip", "knife_m9_bayonet", "knife_survival_bowie", "knife_tactical", "knife_push", "knife_falchion", "knife_gypsy_jackknife", "knife_widowmaker", "knife_ghost","knife_Skeleton", "knife_css", "knife_canis", "knife_outdoor", "knife_cord"];
+name_print <- ["蝴蝶刀", "爪子刀", "短剑", "熊刀", "刺刀", "穿肠刀", "折叠刀", "M9刺刀", "鲍伊猎刀", "猎杀者匕首", "暗影双匕", "弯刀", "折刀", "锯齿爪刀", "幽灵之刃", "骷髅匕首", "海豹短刀", "求生匕首", "流浪者匕首", "系绳匕首"];
 choice <- [0, 0, 0, 0];
 printl( @">>> 跑图CFG扩展脚本初始化完成" );
 
@@ -177,10 +177,10 @@ function hint() {
 	printl(@"──── 补齐血条头甲和满道具	:  \");
 	printl("──── 打印提示(指令)	:  hint");
 	printl("───────────────  依次生成原版刀 *装备原版刀时生效*  ───────────");
-	printl("──── 穿肠 > 折叠 > 刺刀 > M9刺刀 > 爪子刀  : 9");
-	printl("──── 鲍伊 > 蝴蝶 > 猎杀者 > 暗影双匕 > 弯刀 : 0");
-	printl("──── 折刀 > 短剑 > 熊刀 > 锯齿爪 > 幽灵之刃 : -");
-	printl("──── 海豹 > 求生 > 流浪者 > 系绳 > 骷髅匕首 : =");
+	printl("──── 蝴蝶 > 爪子 > 短剑 > 熊刀 > 刺刀 : 9");
+	printl("──── 穿肠 > 折叠 > M9 > 鲍伊猎刀 > 猎杀者匕首 : 0");
+	printl("──── 暗影双匕 > 弯刀 > 折刀 > 锯齿爪 > 幽灵之刃 : -");
+	printl("──── 骷髅 > 海豹 > 求生 > 流浪者 > 系绳 : =");
 	printl("═════════════════════════════════════════════════════════════");
 	printl("·在线游戏时请勿加载或多次加载本CFG，可能会被踢出");
 }
