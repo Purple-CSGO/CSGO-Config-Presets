@@ -115,9 +115,6 @@ function cam( i, j ) {
 
 function hint() {
 	//打印practice.cfg中的指令提示
-	printl("█▀▀█  █  █  █▀▀█  █▀▀█ ▄█  █▀▀▀    █▀▀ █▀▀ █▀▀▀ 　 ▄█     █▀█ ");
-	printl("█▄▄█  █  █  █▄▄▀  █▄▄█  █  █▀▀▀    █   █▀▀ █ ▀█ 　  █    █▄▄█▄");
-	printl("█     ▀▄▄▀  █  █  █    ▄█▄ █▄▄▄    ▀▀▀ ▀   ▀▀▀▀ 　 ▄█▄ █    █ ");
 	printl("═════════════════════════════════════════════════════════════");
 	printl("──── 加载设置[auto.cfg]		:  exec auto");
 	printl("──── 跑图,练习道具  		:  exec practice");
@@ -134,10 +131,6 @@ function hint() {
 	printl("──── BOT模仿玩家动作 	:  bot_mimic 1;");
 	printl("──── BOT模仿角度偏移 	:  bot_mimic_yaw_offset 180;");
 	printl("──── BOT蹲下  		:  bot_crouch 1; ");
-	printl("──── 添加BOT  		:  bot_add;");
-	printl("──── 删除BOT  		:  bot_kick;");
-	printl("──── 杀死BOT		:  bot_kill;");
-	printl("──── 放置BOT 		:  bot_place;");
 	printl("──────────────────────  常用指令  ─────────────────────────────");
 	printl("──── 热身开始		:  mp_warmup_start;");
 	printl("──── 热身结束		:  mp_warmup_end;");
@@ -171,8 +164,8 @@ function hint() {
 	printl("──── 飞行      		:  Alt");
 	printl("──────────────────────  脚本功能  ─────────────────────────────");
 	printl("──── 保存点A 		:  i");
-	printl("──── 回到点A 		:  o");
-	printl("──── 保存点B 		:  [");
+	printl("──── 回到点A 		:  [");
+	printl("──── 保存点B 		:  o");
 	printl("──── 回到点B 		:  ]");
 	printl(@"──── 补齐血条头甲和满道具	:  \");
 	printl("──── 打印提示(指令)	:  hint");
