@@ -118,8 +118,8 @@
 
 - 支付宝：
 
-<img src="/img/支付宝.png" alt="Alipay" style="zoom: 80%;" />
+<img src="./img/支付宝.png" alt="Alipay" style="zoom: 80%;" />
 
 - 微信：
 
-<img src="/img/微信.png" alt="Wechat" style="zoom:80%;" />
+<img src="./img/微信.png" alt="Wechat" style="zoom:80%;" />
