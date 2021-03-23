@@ -30,10 +30,8 @@
 |      自拍杆视角      |    `cals.cfg`     |
 |      ffmpeg录制      |   `ffmpeg.cfg`    |
 |       分层录制       |   `stream.cfg`    |
-|  导出准星&持枪参数   |   `export.cfg`    |
 |     导播/观察者      |       暂无        |
 | Vscript跑图扩展脚本  | `practiceExt.nut` |
-|  Notepad++语法高亮   | `CSGO Config.xml` |
 
 所有的参数都经过详细的测试，按键位置仔细斟酌，确保每个功能的按键都在它用起来最舒服的位置。适用于对CSGO指令不太熟悉，想要到手即用，节省时间的玩家，亦或是想要参考他人的代码来丰富自己CFG的玩家。
 
@@ -120,8 +118,8 @@
 
 - 支付宝：
 
-<img src="支付宝.png" alt="Alipay" style="zoom: 80%;" />
+<img src="/img/支付宝.png" alt="Alipay" style="zoom: 80%;" />
 
 - 微信：
 
-<img src="微信.png" alt="Wechat" style="zoom:80%;" />
+<img src="/img/微信.png" alt="Wechat" style="zoom:80%;" />
