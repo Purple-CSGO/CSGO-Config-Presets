@@ -41,7 +41,7 @@
 
 [Releases](https://github.com/Purple-CSGO/CSGO-Config-Presets/releases)
 
-[天翼云](https://cloud.189.cn/t/bm6bYjRRV7Fn) （访问码：6fjs）
+[天翼云](https://cloud.189.cn/t/ZfM3Y3FZR7v2) （访问码：fbv3）
 
 ## 用法
 
