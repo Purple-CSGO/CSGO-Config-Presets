@@ -45,7 +45,7 @@
 
 ## 用法
 
-见 [使用文档](https://cfg.upup.cool/)
+见 [使用文档](https://cfg.upup.cool/category/)
 
 ## 翻译
 
