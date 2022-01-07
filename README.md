@@ -47,8 +47,6 @@
 
 见 [使用文档](https://cfg.upup.cool/)
 
-```
-
 ## 翻译
 
 如果你想参与翻译工作，将预设翻译为其他语言，请在[issues](https://github.com/Purple-CSGO/CSGO-Config-Presets/issues)中提出。
