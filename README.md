@@ -4,33 +4,34 @@
 <p align="center">
   简体中文 |
   <a href="https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/En-US/README.md">English</a>
-  
+</p>
+
+<p align="center">
 [![stars](https://img.shields.io/github/stars/Purple-CSGO/CSGO-Config-Presets.svg?style=flat&color=green)](https://github.com/Purple-CSGO/CSGO-Config-Presets)
 [![fork](https://img.shields.io/github/forks/Purple-CSGO/CSGO-Config-Presets.svg?style=flat&color=critical)](https://github.com/Purple-CSGO/CSGO-Config-Presets)
 ![license](https://img.shields.io/badge/license-GPL%203-orange.svg?style=flat)
 [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?style=flat)](https://github.com/Purple-CSGO/CSGO-Config-Presets#捐赠)
 [![translation](https://img.shields.io/badge/$-translation-ff69b4.svg?style=flat&color=blueviolet)](https://github.com/Purple-CSGO/CSGO-Config-Presets#翻译)
 [![release](https://img.shields.io/github/release/Purple-CSGO/CSGO-Config-Presets.svg?style=flat&color=blue)](https://github.com/Purple-CSGO/CSGO-Config-Presets/releases)
-
 </p>
 
 ## 简介
 
 项目始于2018年8月，这套CSGO的Config预设涵盖了几乎所有应用的场景，注释详细：
 
-|       使用场景       |     文件名称      |
-| :------------------: | :---------------: |
-|       游戏设置       |    `auto.cfg`     |
-| 准星参数（使用跳投） |  `crosshair.cfg`  |
-|       跑图指令       |  `practice.cfg`   |
-|       本地solo       |    `solo.cfg`     |
-|       观看demo       |    `demo.cfg`     |
-|     录制集锦素材     |    `hlae.cfg`     |
-|      自拍杆视角      |    `cals.cfg`     |
-|      ffmpeg录制      |   `ffmpeg.cfg`    |
-|       分层录制       |   `stream.cfg`    |
-|     导播/观察者      |       暂无        |
-| Vscript跑图扩展脚本  | `practiceExt.nut` |
+| 使用场景          | 文件名称              |
+|:-------------:|:-----------------:|
+| 游戏设置          | `auto.cfg`        |
+| 准星参数（使用跳投）    | `crosshair.cfg`   |
+| 跑图指令          | `practice.cfg`    |
+| 本地solo        | `solo.cfg`        |
+| 观看demo        | `demo.cfg`        |
+| 录制集锦素材        | `hlae.cfg`        |
+| 自拍杆视角         | `cals.cfg`        |
+| ffmpeg录制      | `ffmpeg.cfg`      |
+| 分层录制          | `stream.cfg`      |
+| 导播/观察者        | 暂无                |
+| Vscript跑图扩展脚本 | `practiceExt.nut` |
 
 所有的参数都经过详细的测试，按键位置仔细斟酌，确保每个功能的按键都在它用起来最舒服的位置。适用于对CSGO指令不太熟悉，想要到手即用，节省时间的玩家，亦或是想要参考他人的代码来丰富自己CFG的玩家。
 
