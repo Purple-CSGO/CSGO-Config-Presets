@@ -1,4 +1,6 @@
-<h1 align="center">CSGO CFG预设</h1>
+<div align="center">
+  # CSGO CFG预设
+</div>
 <h4 align="center">适用于CSGO几乎所有场景的CFG预设文件</h3>
 
 <p align="center">
