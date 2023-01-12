@@ -32,6 +32,7 @@
 | 自拍杆视角         | `cals.cfg`        |
 | ffmpeg录制      | `ffmpeg.cfg`      |
 | 分层录制          | `stream.cfg`      |
+| 分层录制（新）          | `stream.cfg`      |
 | 导播/观察者        | 暂无                |
 | Vscript跑图扩展脚本 | `practiceExt.nut` |
 
@@ -47,11 +48,11 @@
 
 ## 用法
 
-见 [使用文档](https://config.upup.cool/) 或 [使用文档2](https://cfg.upup.cool/category/)
+见 [使用文档](https://config.upup.cool/)
 
 ## 翻译
 
-如果你想参与翻译工作，将预设翻译为其他语言，请在[issues](https://github.com/Purple-CSGO/CSGO-Config-Presets/issues)中提出。
+如果你想参与翻译工作，将预设翻译为其他语言，请提交PR，或在[issues](https://github.com/Purple-CSGO/CSGO-Config-Presets/issues)中提出。
 
 ## 捐赠
 
