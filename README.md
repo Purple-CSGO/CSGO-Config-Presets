@@ -6,6 +6,10 @@
   <a href="https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/En-US/README.md">English</a>
 </p>
 
+<p align="center">
+  <a href="[https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/En-US/README.md](https://github.com/Purple-CSGO/CSGO-Config-Presets/tree/v2.x)">现已支持CS2</a>
+</p>
+
 <div align="center">
 
 [![stars](https://img.shields.io/github/stars/Purple-CSGO/CSGO-Config-Presets.svg?style=flat&color=green)](https://github.com/Purple-CSGO/CSGO-Config-Presets)
