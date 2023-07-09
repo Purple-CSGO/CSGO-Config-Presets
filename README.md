@@ -1,10 +1,5 @@
-<h1 align="center">CSGO CFG预设</h1>
-<h4 align="center">适用于CSGO几乎所有场景的CFG预设文件</h3>
-
-<p align="center">
-  简体中文 |
-  <a href="https://github.com/Purple-CSGO/CSGO-Config-Presets/blob/En-US/README.md">English</a>
-</p>
+<h1 align="center">CFG预设 v2.x For CS2</h1>
+<h4 align="center">适用于CS2各场景的CFG预设文件</h3>
 
 <div align="center">
 
@@ -28,13 +23,6 @@
 | 跑图指令          | `practice.cfg`    |
 | 本地solo        | `solo.cfg`        |
 | 观看demo        | `demo.cfg`        |
-| 录制集锦素材        | `hlae.cfg`        |
-| 自拍杆视角         | `cals.cfg`        |
-| ffmpeg录制      | `ffmpeg.cfg`      |
-| 分层录制          | `stream.cfg`      |
-| 分层录制（新）          | `stream.cfg`      |
-| 导播/观察者        | 暂无                |
-| Vscript跑图扩展脚本 | `practiceExt.nut` |
 
 所有的参数都经过详细的测试，按键位置仔细斟酌，确保每个功能的按键都在它用起来最舒服的位置。适用于对CSGO指令不太熟悉，想要到手即用，节省时间的玩家，亦或是想要参考他人的代码来丰富自己CFG的玩家。
 
