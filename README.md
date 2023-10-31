@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Purple-CSGO/CSGO-Config-Presets/tree/v2.x">现已支持CS2</a>
+  <a href="https://github.com/Purple-CSGO/CS2-Config-Presets">现已支持CS2</a>
 </p>
 
 <div align="center">
